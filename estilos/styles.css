@@ -75,7 +75,14 @@
   font-size: 1.5rem;
 }
 
-#btn-orador {
+#btn-resumen,
+#btn-borrar {
+  font-size: medium;
+}
+
+#btn-orador,
+#btn-resumen,
+#btn-borrar {
   background-color: rgb(133, 219, 76);
   color: white;
 }
