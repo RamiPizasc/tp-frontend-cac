@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Conf Bs As - Codo a Codo Pizá</title>
+    <title>Conferencia [CaC] Pizá Ramiro</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -36,14 +36,12 @@
                   border border-dark border-3
                 "
               ></span>
-              <!--agregamos borde y bg-warning y bg-ligth al toggler para que se destaque-->
             </button>
-            <a class="navbar-brand" href="#">
+            <a href="./index.html" class="navbar-brand">
               <img src="./img/codoacodo.png" alt="" id="logo" />
               Conf Bs As
             </a>
           </div>
-          <!--agregamos id a img del logo para modificar padding left y su altura máxima EN CSS -->
 
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav nav-expand-lg text-nowrap text-end pe-5">
@@ -66,7 +64,12 @@
                 <a class="nav-link" href="#">Conviértete en orador</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" id="tickets" onclick="comprarTicket()">Comprar tickets</a>
+                <a
+                  class="nav-link cursor"
+                  id="tickets"
+                  onclick="comprarTicket()"
+                  >Comprar tickets</a
+                >
               </li>
               <!--agregamos id a este nav-link para cambiar color de enlace-->
             </ul>
@@ -87,37 +90,39 @@
                   <img
                     src="./img/hawaii.jpg"
                     class="card-img opacity-50"
-                    id="edificio"
+                    id="img-edificio"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="./img/hawaii2.jpg"
                     class="card-img opacity-50"
-                    id="cafe"
+                    id="img-cafe"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="./img/hawaii3.jpg"
                     class="card-img opacity-50"
-                    id="obelisco"
+                    id="img-obelisco"
                   />
                 </div>
               </div>
             </div>
-  
+
             <!--agregamos id a cada img para modificar height y width de img-->
             <div class="card-img-overlay">
               <p class="card-title fs-2" id="carusel-title">Conf Bs As</p>
               <p class="card-text fs-6" id="carusel-text">
-                Bs As llega por primera vez a Argentina. Un evento para compartir
-                con <br />
+                Bs As llega por primera vez a Argentina. Un evento para
+                compartir con <br />
                 nuestra comunidad el conocimiento y experiencia de los expertos
                 que <br />
-                están creando el futuro de Internet. Ven a conocer a miembros del
+                están creando el futuro de Internet. Ven a conocer a miembros
+                del
                 <br />
-                evento, a otros estudiantes de Codo a Codo y los ordador de primer
+                evento, a otros estudiantes de Codo a Codo y los ordador de
+                primer
                 <br />
                 nivel que tenemos para ti. Te esperamos!
               </p>
@@ -158,14 +163,15 @@
                       <span class="badge bg-info">React</span>
                       <h5 class="card-title">Steve Jobs</h5>
                       <p class="card-text">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Omnis deserunt exercitationem alias corrupti, nostrum
-                        facere cum animi ab. Modi, porro! Nihil modi cupiditate
-                        dignissimos hic at inventore amet dolore minima!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Omnis deserunt exercitationem alias corrupti,
+                        nostrum facere cum animi ab. Modi, porro! Nihil modi
+                        cupiditate dignissimos hic at inventore amet dolore
+                        minima!
                       </p>
                     </div>
                   </div>
-  
+
                   <div class="card m-2 border border-1">
                     <img
                       src="./img/bill.jpg"
@@ -184,7 +190,7 @@
                       </p>
                     </div>
                   </div>
-  
+
                   <div class="card m-2 border border-1">
                     <img
                       src="./img/ada.jpeg"
@@ -198,11 +204,11 @@
                       <span class="badge rounded-pill bg-danger">Startups</span>
                       <h5 class="card-title">Ada Lovelace</h5>
                       <p class="card-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Illum sequi, voluptatibus reprehenderit mollitia totam
-                        aperiam distinctio nulla architecto aspernatur tempora
-                        alias iure iusto libero, esse odit nisi nesciunt ad
-                        provident?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Illum sequi, voluptatibus reprehenderit mollitia
+                        totam aperiam distinctio nulla architecto aspernatur
+                        tempora alias iure iusto libero, esse odit nisi nesciunt
+                        ad provident?
                       </p>
                     </div>
                   </div>
@@ -216,7 +222,7 @@
           <div class="card my-5">
             <div class="row g-1">
               <div class="col-md-6">
-                <img src="./img/honolulu.jpg" id="honolulu" />
+                <img src="./img/honolulu.jpg" id="img-honolulu" />
               </div>
               <!--agregamos id para modificar max-height y width de la img-->
               <div class="col-md-6 bg-honolulu">
@@ -224,13 +230,14 @@
                 <div class="card-body">
                   <h5 class="card-title">Bs As - Octubre</h5>
                   <p class="card-text" id="text-honolulu">
-                    Buenos Aires es la provincia y localidad más grande del estado
-                    de Argentina, en los Estados Unidos. Honolulu es la más sureña
-                    de entre las principaples ciudades estadounidenses. Aunque el
-                    nombre de Honolulu se refiere al área urbana en la costa
-                    sureste de la isla de Oahu, la ciudad y el condado de Honolulu
-                    han formado una ciudad-condado consolidada que cubre toda la
-                    ciudad (aproximadamente 600 km² de superficie)
+                    Buenos Aires es la provincia y localidad más grande del
+                    estado de Argentina, en los Estados Unidos. Honolulu es la
+                    más sureña de entre las principaples ciudades
+                    estadounidenses. Aunque el nombre de Honolulu se refiere al
+                    área urbana en la costa sureste de la isla de Oahu, la
+                    ciudad y el condado de Honolulu han formado una
+                    ciudad-condado consolidada que cubre toda la ciudad
+                    (aproximadamente 600 km² de superficie)
                   </p>
                   <!--agregamos id para modificar font-size de texto-->
                   <button type="button" class="btn btn-sm btn-outline-light">
@@ -242,93 +249,96 @@
           </div>
         </section>
 
-        <div class="container">
-          <div class="row">
-            <div class="text-center">
-              <small class="text-uppercase">conviértete en un </small>
-              <h1 class="text-uppercase">orador</h1>
-              <small
-                >Anótate como orador para dar una
-                <small class="text-decoration-underline">charla ignite</small>.
-                Cuéntanos de qué quieres hablar!</small
-              >
+        <section>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="text-center">
+                <small class="text-uppercase">conviértete en un </small>
+                <h1 class="text-uppercase">orador</h1>
+                <small
+                  >Anótate como orador para dar una
+                  <small class="text-decoration-underline">charla ignite</small
+                  >. Cuéntanos de qué quieres hablar!</small
+                >
+              </div>
+
+              <form method="POST" id="form-enviar">
+                <div class="row my-3">
+                  <div class="col-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Nombre"
+                    />
+                  </div>
+
+                  <div class="col-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleFormControlInput2"
+                      placeholder="Apellido"
+                    />
+                  </div>
+
+                  <div>
+                    <textarea
+                      class="form-control mt-3"
+                      id="exampleFormControlTextarea1"
+                      rows="4"
+                      placeholder="Sobre qué quieres hablar?"
+                      aria-describedby="textHelpBlock"
+                    ></textarea>
+                    <small id="textHelpBlock" class="form-text text-muted">
+                      Recuerda incluir un título para tu charla
+                    </small>
+                  </div>
+
+                  <div class="d-grid col-sm-12 my-3">
+                    <button type="button" class="btn btn-lg" id="btn-orador">
+                      Enviar
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <!--agregamos id al botón para configurar desde CSS-->
             </div>
-
-            <div class="row my-3">
-              <div class="col-6">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="Nombre"
-                />
-              </div>
-
-              <div class="col-6">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="exampleFormControlInput2"
-                  placeholder="Apellido"
-                />
-              </div>
-
-              <div>
-                <textarea
-                  class="form-control mt-3"
-                  id="exampleFormControlTextarea1"
-                  rows="4"
-                  placeholder="Sobre qué quieres hablar?"
-                  aria-describedby="textHelpBlock"
-                ></textarea>
-                <small id="textHelpBlock" class="form-text text-muted">
-                  Recuerda incluir un título para tu charla
-                </small>
-              </div>
-
-              <div class="d-grid col-sm-12 my-3">
-                <button type="submit" class="btn btn-lg" id="btn-orador">
-                  Enviar
-                </button>
-              </div>
-            </div>
-            <!--agregamos id al botón para configurar desde CSS-->
           </div>
-        </div>
-      </section>
+        </section>
       </section>
     </main>
 
     <footer>
       <div class="container-fluid pb-3 pt-4 justify-content-evenly footer">
         <!--agregamos la clase footer para adaptar color de fondo y tamaños de letra desde CSS -->
-        <div class="row text-center">
+        <div class="row text-center footer-anchors">
           <div class="col mx-4">
-            <a class="text-decoration-none" href="#"
+            <a href="#"
               >Preguntas <br />
               frecuentes</a
             >
           </div>
           <div class="col mt-2 mx-3">
-            <a class="text-decoration-none" href="#">Contáctanos</a>
+            <a href="#">Contáctanos</a>
           </div>
           <div class="col mt-2 mx-3">
-            <a class="text-decoration-none" href="#">Prensa</a>
+            <a href="#">Prensa</a>
           </div>
           <div class="col mt-2 mx-3">
-            <a class="text-decoration-none" href="#">Conferencias</a>
+            <a href="#">Conferencias</a>
           </div>
           <div class="col mx-3">
-            <a class="text-decoration-none" href="#"
+            <a href="#"
               >Términos y <br />
               condiciones</a
             >
           </div>
           <div class="col mt-2 mx-3">
-            <a class="text-decoration-none" href="#">Privacidad</a>
+            <a href="#">Privacidad</a>
           </div>
           <div class="col mt-2 mx-5">
-            <a class="text-decoration-none" href="#">Estudiantes</a>
+            <a href="#">Estudiantes</a>
           </div>
         </div>
       </div>
