@@ -6,7 +6,6 @@
 .text-decoration-none {
   color: white;
 }
-
 .navbar-brand:hover {
   color: white;
 }
@@ -15,15 +14,12 @@
 .nav-link {
   color: rgb(173, 173, 173);
 }
-
 .nav-link:hover {
   color: #fff;
 }
-
 #tickets {
   color: rgb(19, 200, 19);
 }
-
 #tickets:hover {
   color: rgb(23, 255, 23);
 }
@@ -38,28 +34,23 @@
 #btn-borrar {
   font-size: medium;
 }
-
 #btn-orador,
 #btn-resumen,
 #btn-borrar {
   background-color: rgb(133, 219, 76);
   color: white;
 }
-
 .btn-hawaii {
   background-color: rgb(38, 165, 38);
   color: white;
 }
-
 .btn-hawaii:hover {
   background-color: rgb(39, 223, 39);
   color: white;
 }
-
 #btn-orador:hover {
   background-color: rgb(133, 245, 53);
 }
-
 #btn-resumen:hover,
 #btn-borrar:hover {
   background-color: rgb(103, 251, 4);
@@ -72,7 +63,6 @@
 }
 
 /* CARRUSEL */
-
 #carusel-title,
 #carusel-text {
   color: white;
@@ -84,15 +74,12 @@
   margin-top: 19rem;
   text-align: right;
 }
-
 .card-img-overlay .fs-6 {
   font-weight: normal;
 }
-
 .card-img-overlay .fs-2 {
   font-weight: bolder;
 }
-
 #text-honolulu {
   font-size: 75%;
 }
@@ -105,7 +92,6 @@
 #exampleFormControlTextarea1 {
   font-size: 1.5rem;
 }
-
 #form-enviar {
   width: 70%;
 }
@@ -115,12 +101,10 @@
   background-color: rgb(18, 62, 98);
   font-size: 0.9rem;
 }
-
 .footer-anchors a {
   text-decoration: none;
   color: white;
 }
-
 .footer-anchors a:hover {
   text-decoration: underline;
 }

@@ -109,6 +109,7 @@ const calcularTicket = (perc1, perc2, perc3) => {
   const precioTicket = 200;
   let datos = document.querySelectorAll("input");
   let opcionElegida = document.getElementById("inputSelect");
+
   let usuario = {
     cantidadEntradas: datos[3].value,
     categoria: opcionElegida.value,
