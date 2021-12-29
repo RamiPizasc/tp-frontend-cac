@@ -45,23 +45,24 @@
 
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav nav-expand-lg text-nowrap text-end pe-5">
-              <!--con pe-5 agregamos padding al final de los elementos nav-link-->
               <li class="nav-item">
                 <a
                   class="nav-link active text-white"
                   aria-current="page"
-                  href="#"
+                  href=""
                   >La conferencia</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
+                <a class="nav-link" href="#sec-oradores">L@s orador@s</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">El lugar y la fecha</a>
+                <a class="nav-link" href="#sec-lugar">El lugar y la fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Conviértete en orador</a>
+                <a class="nav-link" href="#sec-participante"
+                  >Conviértete en orador@</a
+                >
               </li>
               <li class="nav-item">
                 <a
@@ -71,7 +72,6 @@
                   >Comprar tickets</a
                 >
               </li>
-              <!--agregamos id a este nav-link para cambiar color de enlace-->
             </ul>
           </div>
         </nav>
@@ -110,26 +110,28 @@
               </div>
             </div>
 
-            <!--agregamos id a cada img para modificar height y width de img-->
             <div class="card-img-overlay">
               <p class="card-title fs-2" id="carusel-title">Conf Bs As</p>
               <p class="card-text fs-6" id="carusel-text">
-                Bs As llega por primera vez a Argentina. Un evento para
+                Conf Bs As llega por primera vez a Argentina. Un evento para
                 compartir con <br />
-                nuestra comunidad el conocimiento y experiencia de los expertos
+                nuestra comunidad el conocimiento y experiencia de l@s expert@s
                 que <br />
                 están creando el futuro de Internet. Ven a conocer a miembros
                 del
                 <br />
-                evento, a otros estudiantes de Codo a Codo y los ordador de
+                evento, a otr@s estudiant@s de Codo a Codo y l@s orador@s de
                 primer
                 <br />
                 nivel que tenemos para ti. Te esperamos!
               </p>
               <div class="d-inline">
-                <button type="button" class="btn btn-outline-light btn-sm mt-3">
-                  Quiero ser orador
-                </button>
+                <a
+                  class="btn btn-outline-light btn-sm mt-3"
+                  href="#sec-participante"
+                >
+                  Quiero ser orador@
+                </a>
                 <button
                   type="button"
                   class="btn btn-hawaii btn-sm mt-3"
@@ -137,18 +139,17 @@
                 >
                   Comprar tickets
                 </button>
-                <!--creamos clase btn btn-hawaii para cambiar color de botón en CSS-->
               </div>
             </div>
           </div>
         </section>
 
-        <section>
+        <section id="sec-oradores">
           <div class="container">
             <div class="row pt-2">
               <div class="text-center">
-                <small class="text-uppercase">conoce a los</small>
-                <h1 class="text-uppercase">oradores</h1>
+                <small class="text-uppercase">conoce a l@s</small>
+                <h1 class="text-uppercase">orador@s</h1>
               </div>
               <div class="row">
                 <div class="card-group">
@@ -218,28 +219,24 @@
           </div>
         </section>
 
-        <section>
+        <section id="sec-lugar">
           <div class="card my-5">
             <div class="row g-1">
               <div class="col-md-6">
                 <img src="./img/honolulu.jpg" id="img-honolulu" />
               </div>
-              <!--agregamos id para modificar max-height y width de la img-->
               <div class="col-md-6 bg-honolulu">
-                <!--Agregamos la clase bg-honolulu para personalizar el color del fondo y el color de la letra en CSS-->
                 <div class="card-body">
                   <h5 class="card-title">Bs As - Octubre</h5>
                   <p class="card-text" id="text-honolulu">
-                    Buenos Aires es la provincia y localidad más grande del
-                    estado de Argentina, en los Estados Unidos. Honolulu es la
-                    más sureña de entre las principaples ciudades
-                    estadounidenses. Aunque el nombre de Honolulu se refiere al
-                    área urbana en la costa sureste de la isla de Oahu, la
-                    ciudad y el condado de Honolulu han formado una
-                    ciudad-condado consolidada que cubre toda la ciudad
-                    (aproximadamente 600 km² de superficie)
+                    Buenos Aires es la provincia y localidad más grande de
+                    Argentina. En los Estados Unidos, Honolulu es la más sureña
+                    de las principaples ciudades estadounidenses. Aunque el
+                    nombre de Honolulu se refiere al área urbana en la costa
+                    sureste de la isla de Oahu, la ciudad y el condado de
+                    Honolulu han formado una ciudad-condado consolidada que
+                    cubre toda la ciudad (aproximadamente 600 km² de superficie)
                   </p>
-                  <!--agregamos id para modificar font-size de texto-->
                   <button type="button" class="btn btn-sm btn-outline-light">
                     Conocé más
                   </button>
@@ -249,14 +246,14 @@
           </div>
         </section>
 
-        <section>
+        <section id="sec-participante">
           <div class="container">
             <div class="row justify-content-center">
               <div class="text-center">
-                <small class="text-uppercase">conviértete en un </small>
-                <h1 class="text-uppercase">orador</h1>
+                <small class="text-uppercase">conviértete en un@ </small>
+                <h1 class="text-uppercase">orador@</h1>
                 <small
-                  >Anótate como orador para dar una
+                  >Anótate como orador@ para dar una
                   <small class="text-decoration-underline">charla ignite</small
                   >. Cuéntanos de qué quieres hablar!</small
                 >
@@ -302,7 +299,6 @@
                   </div>
                 </div>
               </form>
-              <!--agregamos id al botón para configurar desde CSS-->
             </div>
           </div>
         </section>
@@ -311,7 +307,6 @@
 
     <footer>
       <div class="container-fluid pb-3 pt-4 justify-content-evenly footer">
-        <!--agregamos la clase footer para adaptar color de fondo y tamaños de letra desde CSS -->
         <div class="row text-center footer-anchors">
           <div class="col mx-4">
             <a href="#"
