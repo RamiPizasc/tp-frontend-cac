@@ -1,16 +1,38 @@
-HTML
+index HTML
 
 47: con pe-5 agregamos padding al final de los elementos nav-link
+
 69: clase cursor, permite modificar el icono del cursor al hacer hover sobre el enlace "comprar tickets"
+
 74: agregamos id a este nav-link para cambiar color de enlace
+
 93,100,107: agregamos id a cada img para modificar height y width de img
+
 137: creamos clase btn btn-hawaii para cambiar color de botón en CSS
+
 226: agregamos id para modificar max-height y width de la img
+
 228: Agregamos la clase bg-honolulu para personalizar el color del fondo y el color de la letra en CSS
+
 231: agregamos id para modificar font-size de texto
+
 297: agregamos id al botón para configurar desde CSS
+
 310: agregamos la clase footer para adaptar color de fondo y tamaños de letra desde CSS
 
-CSS
 
-Ordenada de acuerdo a las etiquetas html, clases, ID's y componentes Bootstrap
+styles CSS
+
+Hoja ordenada de acuerdo a las etiquetas html, clases, ID's y componentes Bootstrap
+
+
+app JS
+
+56: En el form la action es index.html y el método es POST
+
+72: en <input type="number" class="form-control" placeholder="Cantidad" ...> contamos con el atributo "min", donde establecimos el valor mínimo (1) que se permite ingresar. Allí también tenemos el atributo "step": el contador del input avanzara de a una unidad por vez.
+En el atributo "oninput" retomamos el atributo "value" y le asignamos el método replace. En su interior el método replace posee una expresion regular "(/[^0-9]/g)". Quiere decir que solo admitirá números enteros del 0 al 9. Si ingreso 1.2, el input borra ese valor automáticamente.
+La expresion regular original es (/[^0-9]/g,'') El problema que tenía es este: al ingresar una coma en el input del formulario (eg, 1.2), se elimina la coma pero no el decimal a la derecha (eg. 1.2 quedará 12). Otro ejemplo: si ingreso 1.02, el input registra 102.
+
+93: El type del botón Resumen es "button". 
+
