@@ -69,7 +69,7 @@ const comprarTicket = () => {
                         <div class="d-flex py-2">
                             <div class="form-group col-6 col-md-6 p-1">
                                 <label for="">Cantidad</label>
-                                <input type="number" class="form-control" placeholder="Cantidad" />
+                                <input type="number" class="form-control" placeholder="Cantidad" min="1" step="1" oninput="this.value=this.value.replace(/[^0-9]/g)" />
                             </div>
                             <div class="form-group col-6 col-md-6 p-1">
                                 <label for="">Categoría</label>
@@ -102,8 +102,6 @@ const comprarTicket = () => {
     .addEventListener("click", mostrarTicket);
   document.getElementById("btn-borrar").addEventListener("click", borrarTicket);
 };
-
-//TODO: el type del botón Resumen es "button". En el form la action es index.html y el método es POST
 
 const calcularTicket = (perc1, perc2, perc3) => {
   const precioTicket = 200;
