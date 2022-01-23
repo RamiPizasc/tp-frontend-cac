@@ -8,5 +8,5 @@ En la página principal observará:
 - una tarjeta especial dedicada a la ciudad y su descripción resumida, 
 - un formulario de contacto,
 - y un footer
-Al hacer clic en el botón “Comprar tickets” se dirigirá a una vista nueva. Allí podrá ingresar su nombre, su categoría (Junior, Estudiante o Trainee) y la cantidad de entradas a pagar.
+Al hacer click en el botón “Comprar tickets” se dirigirá a una vista nueva. Allí podrá ingresar su nombre, su categoría (Junior, Estudiante o Trainee) y la cantidad de entradas a pagar.
 Con el botón "Resumen" obtendrá el precio total a pagar. Para regresar a la página de inicio, haga click en el logo Codo a Codo.
